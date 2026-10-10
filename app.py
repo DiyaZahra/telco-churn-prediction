@@ -14,7 +14,7 @@ bundle = load_bundle()
 model, scaler, columns = bundle["model"], bundle["scaler"], bundle["columns"]
 
 st.title("📉 Telco Customer Churn Predictor")
-st.write("Customer ki details bharo, model batayega ke wo company chhorne ka risk rakhta hai ya nahi.")
+st.write("add customers details to check")
 
 col1, col2 = st.columns(2)
 
